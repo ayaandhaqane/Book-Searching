@@ -10,7 +10,7 @@ The search results are displayed in a card format, providing details about each 
 - **Book Details:** Users can click on a book to view more details.
 - **Responsive Design:** The application is designed to be responsive and works well on both desktop and mobile devices.
 - **Loading Indicator:** Displays a loading indicator while fetching data from the API.
-- **Error Handling:** Handles errors gracefully and displays appropriate messages to the user.
+
 
 ## Technologies Used
 - **React:** JavaScript library for building user interfaces.
