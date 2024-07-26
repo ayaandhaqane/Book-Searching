@@ -24,10 +24,6 @@ function BookDetail() {
       });
   }, [id]);
 
-  if (loading) {
-    return <Loading />;
-  }
-
   if (error) {
     return <p className="text-center text-white">{error}</p>;
   }
