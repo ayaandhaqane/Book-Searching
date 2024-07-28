@@ -1,4 +1,3 @@
-// src/components/SearchingForm.jsx
 import React, { useState, useContext } from 'react';
 import { BookContext } from '../context/BookContext';
 
