@@ -46,4 +46,4 @@ The search results are displayed in a card format, providing details about each 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Contact
-For any inquiries or questions, please contact [ayaandhaqane4155@gmail.com].
+For any inquiries or questions, please contact [ayaandhaqane4155@gmail.com]p
