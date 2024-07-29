@@ -4,6 +4,9 @@
   https://book-searching-livid.vercel.app/
 
 
+# Screenshots
+![Home page](image.png)
+
 ## Description
 The Book Searching Application is a React-based frontend application that allows users to search for books using the Google Books API. 
 The application provides an intuitive and user-friendly interface for users to find books by entering their queries in the search bar. 
