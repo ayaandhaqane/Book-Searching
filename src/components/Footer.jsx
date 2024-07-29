@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <section className="bg-black py-10 bg-gray-50 sm:pt-28 lg:pt-24">
+    <section className="bg-[#1e1b4b] py-10 bg-gray-50 sm:pt-28 lg:pt-24">
       <div className="px-4 sm:px-6 lg:px-8 w-50">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-y-16 gap-x-12">
           <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
@@ -13,7 +13,7 @@ function Footer() {
                 Ayaan Books
               </span>
             </Link>
-            <p className="text-base leading-relaxed text-gray-600 mt-7"> At Postcrafts, we are dedicated to providing the best online book searching experience. Our mission is to make it easy for users to find the books they need, whether for education, entertainment, or professional development. We strive to ensure a seamless and enjoyable browsing experience for all book lovers.</p>
+            <p className="text-base leading-relaxed text-gray-600 mt-7"> At Ayaan Books, we are dedicated to providing the best online book searching experience. Our mission is to make it easy for users to find the books they need, whether for education, entertainment, or professional development. We strive to ensure a seamless and enjoyable browsing experience for all book lovers.</p>
 
             <ul className="flex items-center space-x-3 mt-9">
               <li>
