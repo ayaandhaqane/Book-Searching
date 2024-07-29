@@ -18,7 +18,7 @@ function Home() {
 
   return (
 
-    <div className="bg-gradient-to-b from-[#101212] to-[#08201D] min-h-screen flex flex-col justify-center items-center">
+    <div className="bg-gray-900 min-h-screen flex flex-col justify-center items-center">
       {/* <header className="absolute inset-x-0 top-0 z-10 w-full">
         <div className="px-4 mx-auto sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
@@ -49,7 +49,7 @@ function Home() {
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 relative z-20">
           <div className="max-w-xl mx-auto text-center">
             <h1 className="text-4xl font-bold sm:text-6xl">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-white">Search Every Book You want</span>
+              <span className="text-transparent bg-clip-text bg-blue-900">Search Every Book You want</span>
             </h1>
             <p className="mt-5 text-base text-white sm:text-xl">No more hassle taking loans and making payments. Try Postcrats credit card, make your life simple.</p>
             <SearchingForm />
