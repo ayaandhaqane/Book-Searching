@@ -6,6 +6,8 @@
 
 # Screenshots
 ![Home page](image.png)
+![image](https://github.com/user-attachments/assets/d08739c9-eab1-4193-9a75-9a1afda76dc1)
+
 
 ## Description
 The Book Searching Application is a React-based frontend application that allows users to search for books using the Google Books API. 
