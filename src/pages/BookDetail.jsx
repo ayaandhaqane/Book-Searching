@@ -35,7 +35,7 @@ function BookDetail() {
   const bookInfo = book.volumeInfo;
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#101212] to-[#08201D] text-black flex items-center justify-center py-12">
+    <div className="min-h-screen bg-[#1e1b4b] text-black flex items-center justify-center py-12">
       <div className="w-full max-w-4xl p-6 bg-white  rounded-lg shadow-lg">
         <button onClick={() => navigate(-1)} className="text-black hover:text-blue-700 mb-4 flex items-center">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6 mr-2">
