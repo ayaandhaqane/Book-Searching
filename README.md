@@ -1,8 +1,7 @@
 # Book Searching Application
 
 # Deploy Vercel 
-  https://book-searching-livid.vercel.app/
-
+https://book-searching-livid.vercel.app/
 
 # Screenshots
 ![image](https://github.com/user-attachments/assets/5925cb6d-f177-463a-a605-8dae3e9f5493)
