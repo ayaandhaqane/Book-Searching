@@ -5,14 +5,14 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 
 function Home() {
-  const [loading, setLoading] = useState(true);
+  const [ setLoading] = useState(true);
 
-  useEffect(() => {
-    // Simulate a data fetching delay
-    setTimeout(() => {
-      setLoading(false);
-    }, 2000);
-  }, []);
+  // useEffect(() => {
+  //   // Simulate a data fetching delay
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 2000);
+  // }, []);
 
 
 
