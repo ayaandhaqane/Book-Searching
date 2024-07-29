@@ -51,7 +51,7 @@ function Home() {
             <h1 className="text-4xl font-bold sm:text-6xl">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#4B0082] to-[#3b82f6]">Search Every Book You want</span>
             </h1>
-            <p className="mt-5 text-base text-black sm:text-xl">No more hassle taking loans and making payments. Try Postcrats credit card, make your life simple.</p>
+            <p className="mt-5 text-base text-[#4B0082] sm:text-xl">No more hassle taking loans and making payments. Try Postcrats credit card, make your life simple.</p>
             <SearchingForm />
           </div>
         </div>
