@@ -6,7 +6,9 @@ import Loading from './Loading';
 function BookList() {
   const { books, loading, error ,searchPerformed} = useContext(BookContext);
 
- 
+  if (loading) {
+    return <Loading />;
+  }
 
   if (error) {
     return <p className="text-center text-white">{error}</p>;
