@@ -18,7 +18,7 @@ function Contact() {
         <div className="container px-6 py-3 mx-auto  rounded-2xl">
           <div className="lg:flex lg:items-center lg:-mx-6">
             <div className="lg:w-1/3 lg:mx-6">
-              <h1 className="text-2xl font-semibold text-white capitalize text-[#4B0082] lg:text-3xl">
+              <h1 className="text-2xl font-semibold  capitalize text-[#4B0082] lg:text-3xl">
                 Contact us for more info
               </h1>
 
@@ -28,7 +28,7 @@ function Contact() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
-                  <span className="mx-2 text-[#4B0082] truncate w-72 text-white">
+                  <span className="mx-2 text-[#4B0082] truncate w-72 ">
                     Mugadisho
                     St.Hodan
                   </span>
@@ -37,7 +37,7 @@ function Contact() {
                   <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 mx-2 text-blue-500 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
-                  <span className="mx-2 truncate w-72 text-Indigo">(252) 615-107933</span>
+                  <span className="mx-2 truncate w-72 text-[#4B0082]">(252) 615-107933</span>
                 </p>
                 <p className="flex items-start -mx-2">
                   <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 mx-2 text-blue-500 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
