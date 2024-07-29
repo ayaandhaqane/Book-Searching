@@ -33,7 +33,7 @@ function About() {
           </div>
           <div className="md:w-1/2 flex justify-center relative">
             <div className="relative w-full max-w-md">
-              <img src="public/about.jpg" alt="Person working" className="rounded-full shadow-lg w-full h-full object-cover z-10"/>
+              <img src="about.jpg" alt="Person working" className="rounded-full shadow-lg w-full h-full object-cover z-10"/>
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="absolute -bottom-10 left-0 w-32 h-32 bg-[#4B0082] rounded-full opacity-75"></div>
                 <div className="absolute -top-10 right-0 w-32 h-32 bg-blue-600 rounded-full opacity-60"></div>
