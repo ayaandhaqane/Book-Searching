@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <section className="py-10 bg-gray-50 sm:pt-28 lg:pt-24">
+    <section className="bg-[#1e1b4b] py-10 bg-gray-50 sm:pt-28 lg:pt-24">
       <div className="px-4 sm:px-6 lg:px-8 w-50">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-y-16 gap-x-12">
           <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
           <Link to="/" title="" className="flex items-center">
               <img className="w-auto h-16" src="bklog.png" alt="Logo" />
-              <span className="text-lg font-amsterdam font-bold text-black" style={{ fontFamily: 'Amsterdam Four, cursive' }}>
+              <span className="text-lg font-amsterdam font-bold text-white" style={{ fontFamily: 'Amsterdam Four, cursive' }}>
                 Ayaan Books
               </span>
             </Link>
@@ -54,16 +54,16 @@ function Footer() {
 
             <ul className="mt-6 space-y-4">
               <li>
-                <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> About </a>
+                <a href="#" title="" className="flex text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-white"> About </a>
               </li>
               <li>
-                <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Features </a>
+                <a href="#" title="" className="flex text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Features </a>
               </li>
               <li>
-                <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Works </a>
+                <a href="#" title="" className="flex text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Works </a>
               </li>
               <li>
-                <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Career </a>
+                <a href="#" title="" className="flex text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Career </a>
               </li>
             </ul>
           </div>
@@ -73,16 +73,16 @@ function Footer() {
 
             <ul className="mt-6 space-y-4">
               <li>
-                <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Customer Support </a>
+                <a href="#" title="" className="flex text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Customer Support </a>
               </li>
               <li>
-                <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Delivery Details </a>
+                <a href="#" title="" className="flex text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Delivery Details </a>
               </li>
               <li>
-                <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Terms & Conditions </a>
+                <a href="#" title="" className="flex text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Terms & Conditions </a>
               </li>
               <li>
-                <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Privacy Policy </a>
+                <a href="#" title="" className="flex text-base text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Privacy Policy </a>
               </li>
             </ul>
           </div>
@@ -93,7 +93,7 @@ function Footer() {
             <form action="#" method="POST" className="mt-6">
               <div>
                 <label htmlFor="email" className="sr-only">Email</label>
-                <input type="email" name="email" id="email" placeholder="Enter your email" className="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600" />
+                <input type="email" name="email" id="email" placeholder="Enter your email" className="block w-full p-4 text-white placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600" />
               </div>
 
               <button type="submit" className="inline-flex items-center justify-center px-6 py-4 mt-3 font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700">Subscribe</button>
