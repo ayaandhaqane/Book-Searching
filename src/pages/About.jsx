@@ -5,48 +5,48 @@ const Header = lazy(() => import('../components/Header'));
 const Footer = lazy(() => import('../components/Footer'));
 
 function About() {
-  return ( 
-    <section id="about" className="bg-gradient-to-b from-[#101212] to-[#08201D] min-h-screen flex flex-col">
+  return (
+    <div className="min-h-screen flex flex-col">
       <Suspense fallback={<Loading />}>
         <Header />
       </Suspense>
-      <div className="container px-6 py-60 mx-auto flex-grow">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-extrabold text-white sm:text-1xl">About Us</h2>
-          <p className="mt-4 max-w-2xl text-lg text-gray-300">
+      <section id="about" className="bg-white text-gray-800 min-h-screen flex flex-col pt-16">
+        <div className="container mx-auto px-6 py-20 flex-grow flex flex-col md:flex-row items-center justify-between">
+          <div className="md:w-1/2 mb-12 md:mb-0">
+            <h2 className="text-base text-white font-semibold tracking-wide uppercase">About Us</h2>
+            <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-600 sm:text-4xl">
+              Helping businesses deliver <span className="text-[#4B0082]">exceptional</span> buyer experiences.
+            </h3>
+            <p className="mt-4 text-lg text-black">
             At AyaanBooks, we are committed to revolutionizing the online book searching experience by offering an extensive and user-friendly platform. 
-            Our mission is to simplify the process of finding the perfect book for any purpose, whether it’s for education, entertainment, or professional development. 
-            We curate a vast selection of titles, ensuring that our users have access to the best resources available. 
-            Our dedicated team works tirelessly to provide personalized recommendations, 
-            making book discovery both enjoyable and efficient. Join us on our journey to foster a love of reading and lifelong learning for everyone.
-          </p>
-
-          <div className="mt-10">
-            <h3 className="text-2xl font-bold text-white">Our Team</h3>
-            <div className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-8">
-              <div className="text-center">
-                <img className="w-32 h-32 mx-auto rounded-full" src="pic.jpeg" alt="Team Member" />
-                <h4 className="mt-4 text-lg font-medium text-white">Ayaan Dhaqane</h4>
-                <p className="mt-2 text-base text-gray-300">CEO</p>
-              </div>
-              <div className="text-center">
-                <img className="w-32 h-32 mx-auto rounded-full" src="pic.jpeg" alt="Team Member" />
-                <h4 className="mt-4 text-lg font-medium text-white">Bahja Abdi</h4>
-                <p className="mt-2 text-base text-gray-300">CTO</p>
-              </div>
-              <div className="text-center">
-                <img className="w-32 h-32 mx-auto rounded-full" src="pic.jpeg" alt="Team Member" />
-                <h4 className="mt-4 text-lg font-medium text-white">Amina Abdrahman</h4>
-                <p className="mt-2 text-base text-gray-300">Lead Developer</p>
+            Our mission is to simplify the process of finding the perfect book for any purpose,
+             whether it’s for education, entertainment, or professional development. 
+             We curate a vast selection of titles, ensuring that our users have access to the best resources available.
+              Our dedicated team works tirelessly to provide personalized recommendations, 
+             making book discovery both enjoyable and efficient. Join us on our journey to foster a love of reading and lifelong learning for everyone.
+            </p>
+            <div className="mt-8">
+              <a href="#" className="bg-[#4B0082] text-white py-3 px-6 rounded-full text-lg hover:bg-blue-700 transition duration-300 ease-in-out shadow-md">
+                Sign Up for Free
+              </a>
+            </div>
+          </div>
+          <div className="md:w-1/2 flex justify-center relative">
+            <div className="relative w-full max-w-md">
+              <img src="public/about.jpg" alt="Person working" className="rounded-full shadow-lg w-full h-full object-cover z-10"/>
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="absolute -bottom-10 left-0 w-32 h-32 bg-[#4B0082] rounded-full opacity-75"></div>
+                <div className="absolute -top-10 right-0 w-32 h-32 bg-blue-600 rounded-full opacity-60"></div>
+                <div className="absolute -bottom-20 right-20 w-32 h-32 bg-blue-600 rounded-full opacity-65"></div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <Suspense fallback={<Loading/> }>
+      </section>
+      <Suspense fallback={<Loading />}>
         <Footer />
       </Suspense>
-    </section>
+    </div>
   );
 }
 
