@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4c6505e5-fd7e-4636-9efa-bf99d68aab2e)# Book Searching Application
+# Book Searching Application
 
 # Deploy Vercel 
   https://book-searching-livid.vercel.app/
